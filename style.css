@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For All Page - End*/
+/*Navbar Start*/
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 2em;
+    color: brown;
+    letter-spacing: 1px;
+}
+
+header ul li{
+    display: inline;
+    padding-right: 30px;
+}
+
+/*Navbar End*/
+/*For All Page - End*/
+
+/*Content (index.html) - Start*/
+
+section.index{
+    text-align: center;
+}
+
+section h3{
+    color: blueviolet;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+section.index h5{
+    color: crimson;
+    font-size: 1.3em;
+}
+
+section.index ul{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.index ul li{
+    width: 6vw;
+    text-align: left;
+}
+
+/*Content (index.html) - End*/
+
+
+/*Content (hakkimizda.html) - Start*/
+
+section.about div h5{
+    color: goldenrod;
+}
+
+/*Content (hakkimizda.html) - End*/
+
+/*Content (urunler.html) - End*/
+
+section.urunler .items{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.urunler .items ol li img{
+    width: 300px;
+}
+
+section.urunler .items ol li span{
+    font-weight: 700;
+}
+
+/*Content (urunler.html) - End*/
+
